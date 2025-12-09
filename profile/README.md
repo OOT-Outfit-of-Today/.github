@@ -107,7 +107,7 @@
 
 ## 7. API 명세
 
-- **Swagger UI**: [http://43.200.245.141:8080/api/swagger-ui/index.html](http://43.200.245.141:8080/api/swagger-ui/index.html)
+- **Swagger UI**: [개발 서버 Swagger](http://3.36.121.187:8080/api/swagger-ui/index.html)
 
 ---
 
