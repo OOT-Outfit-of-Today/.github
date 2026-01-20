@@ -11,14 +11,15 @@
 | 지나 | Backend | 인증·인가, 사용자 관리, 판매글, 채팅, 결제 | Spring Security, JWT, WebSocket, Toss Payments |
 | 병수 | Backend | 옷장 관리, 옷 등록, 추천, 위치 검색, 대시보드 | Spring Batch, Redis, Kakao Maps API |
 
----
+<br>
 
 ## 2. 프로젝트 개요
 
-**개발 기간:** 2025년 10월 13일 ~ 
+### 개발 기간
+2025년 10월 13일 ~ 
 
+### 프로젝트 소개
 `OOT(Outfit of Today)`는 **의류 기반 중고 거래**와 **디지털 옷장 관리** 서비스를 제공하는 플랫폼입니다.
-
 자주 입지 않는 의류의 기부 또는 판매를 추천하여, 사용자의 의류 활용도를 높이고 의류 순환을 통한 환경 보호에 기여합니다.
 
 ### 주요 특징
@@ -27,7 +28,7 @@
 - **직거래 중심 거래**: 모든 중고 거래는 사용자 간의 직거래 방식
 - **거래 기능의 독립성**: 옷장 서비스를 이용하지 않아도 거래 참여 가능
 
----
+<br>
 
 ## 3. 주요 기술 스택
 
@@ -36,7 +37,7 @@
 ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
 ![Spring Data JPA](https://img.shields.io/badge/Spring%20Data%20JPA-6DB33F?style=for-the-badge&logo=spring&logoColor=white)
 
-### **인증 및 보안**
+### **인증·인가**
 ![Spring Security](https://img.shields.io/badge/Spring%20Security-6DB33F?style=for-the-badge&logo=springsecurity&logoColor=white)
 ![JWT](https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=JSON%20web%20tokens)
 
@@ -59,7 +60,7 @@
 ![Grafana](https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white)
 ![Loki](https://img.shields.io/badge/Loki-F46800?style=for-the-badge&logo=grafana&logoColor=white)
 
-### **외부부 API**
+### **외부 API**
 ![Google OAuth](https://img.shields.io/badge/Google%20OAuth-4285F4?style=for-the-badge&logo=google&logoColor=white)
 ![Kakao Maps](https://img.shields.io/badge/Kakao%20Maps-FFCD00?style=for-the-badge&logo=kakao&logoColor=black)
 ![Toss Payments](https://img.shields.io/badge/Toss%20Payments-0064FF?style=for-the-badge&logo=v&logoColor=white)
@@ -71,7 +72,7 @@
 ![Notion](https://img.shields.io/badge/Notion-%23000000.svg?style=for-the-badge&logo=notion&logoColor=white)
 ![Swagger](https://img.shields.io/badge/-Swagger-%23Clojure?style=for-the-badge&logo=swagger&logoColor=white)
 
----
+<br>
 
 ## 4. 서비스 플로우
 
@@ -90,25 +91,25 @@
 5. **거래 진행**  
    사용자 간 직거래 또는 기부를 통해 의류를 순환시킵니다.
 
----
+<br>
 
 ## 5. 시스템 아키텍처
 
 > 추후 아키텍처 다이어그램 추가 예정
 
----
+<br>
 
 ## 6. ERD
 
 > 추후 ERD 다이어그램 추가 예정
 
----
+<br>
 
 ## 7. API 명세
 
 - **Swagger UI**: [개발 서버 Swagger](http://3.36.121.187:8080/api/swagger-ui/index.html)
 
----
+<br>
 
 ## 8. 레포지토리 구조
 
@@ -117,9 +118,9 @@
 | **OOT-Outfit-of-Today** | 메인 서버 애플리케이션(Auth, User, Closet, Clothes, SalePost, Chat 등 핵심 도메인) |
 | **OOT-Batch** | 통계 집계, 추천 데이터 전처리, 정기 작업 등을 수행하는 배치 서버 |
 | **OOT-Common** | 공통 DTO, 유틸, 도메인·에러 코드 등 공유 모듈 |
-| **OOT-Monitoring** | 로그/메트릭 수집, 대시보드 설정 등 모니터링 관련 레포 |
+| **OOT-Monitoring** | 로그·메트릭 수집, 대시보드 설정 등 모니터링 관련 레포 |
 
----
+<br>
 
 ## 9. 주요 기능
 
@@ -146,11 +147,10 @@
 - 사용자 및 관리자용 통계 집계 및 시각화
 - Redis 캐싱을 통한 빠른 응답
 
----
+<br>
 
 ## 📮 Contact
 
-- **프로젝트 기간**: 2025년 10월 13일 ~
 - **팀 노션**: [OOT 팀 노션](https://www.notion.so/teamsparta/6-OOT-2862dc3ef5148073a3fbcf5014ebf307)
 - **Swagger API**: [개발 서버 Swagger](http://3.36.121.187:8080/api/swagger-ui/index.html)
 - **GitHub Organization**: https://github.com/OOT-Outfit-of-Today
