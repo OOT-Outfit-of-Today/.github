@@ -1,32 +1,31 @@
-# OOT (Outfit of Today)
+# OOT(Outfit of Today)
 
-> **옷의 새로운 여정, 오늘 당신이 이어주세요!**
+**옷의 새로운 여정, 오늘 당신이 이어주세요!**
 
 ---
 
 ## 1. 팀원 소개
 
-| | | | |
+| **팀원** | **역할** | **담당 기능** | **기술 스택** |
 |---|---|---|---|
-| **팀원** | **역할** | **담당 기능" | **기술 스택** |
-| 지나 | Backend | 인증/인가, 사용자 관리, 판매글, 채팅, 결제 | Spring Security, JWT, WebSocket, Toss Payments |
+| 지나 | Backend | 인증·인가, 사용자 관리, 판매글, 채팅, 결제 | Spring Security, JWT, WebSocket, Toss Payments |
 | 병수 | Backend | 옷장 관리, 옷 등록, 추천, 위치 검색, 대시보드 | Spring Batch, Redis, Kakao Maps API |
 
 ---
 
 ## 2. 프로젝트 개요
 
-**개발 기간:** 2025년 10월 13일 ~ ✓
+**개발 기간:** 2025년 10월 13일 ~ 
 
-`OOT(Outfit of Today)`는 사용자가 **디지털 옷장을 관리**하고, **중고 의류를 거래**할 수 있는 플랫폼입니다.
+`OOT(Outfit of Today)`는 **의류 기반 중고 거래**와 **디지털 옷장 관리** 서비스를 제공하는 플랫폼입니다.
 
-자주 입지 않는 옷의 기부 또는 판매를 추천하여 의류 순환을 통해 환경 보호에 기여합니다.
+자주 입지 않는 의류의 기부 또는 판매를 추천하여, 사용자의 의류 활용도를 높이고 의류 순환을 통한 환경 보호에 기여합니다.
 
 ### 주요 특징
 - **회원 기반 서비스**: 옷장 관리, 중고 거래는 회원 전용 기능
-- **비회원 접근**: 공개 옷장 및 중고 거래 게시물 조회 가능
-- **직거래 기반**: 모든 중고 거래는 사용자 간의 직거래 방식
-- **독립적 거래**: 옷장 서비스를 이용하지 않아도 거래 참여 가능
+- **비회원 접근 허용**: 공개 옷장 및 중고 거래 게시물 조회 가능
+- **직거래 중심 거래**: 모든 중고 거래는 사용자 간의 직거래 방식
+- **거래 기능의 독립성**: 옷장 서비스를 이용하지 않아도 거래 참여 가능
 
 ---
 
@@ -60,7 +59,7 @@
 ![Grafana](https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white)
 ![Loki](https://img.shields.io/badge/Loki-F46800?style=for-the-badge&logo=grafana&logoColor=white)
 
-### **External API**
+### **외부부 API**
 ![Google OAuth](https://img.shields.io/badge/Google%20OAuth-4285F4?style=for-the-badge&logo=google&logoColor=white)
 ![Kakao Maps](https://img.shields.io/badge/Kakao%20Maps-FFCD00?style=for-the-badge&logo=kakao&logoColor=black)
 ![Toss Payments](https://img.shields.io/badge/Toss%20Payments-0064FF?style=for-the-badge&logo=v&logoColor=white)
@@ -111,11 +110,11 @@
 
 ---
 
-## 8. 레포지터리 구조
+## 8. 레포지토리 구조
 
 | Repository | 설명 |
 |------------|------|
-| **OOT-Outfit-of-Today** | 메인 서버 애플리케이션 (Auth, User, Closet, Clothes, SalePost, Chat 등 핵심 도메인) |
+| **OOT-Outfit-of-Today** | 메인 서버 애플리케이션(Auth, User, Closet, Clothes, SalePost, Chat 등 핵심 도메인) |
 | **OOT-Batch** | 통계 집계, 추천 데이터 전처리, 정기 작업 등을 수행하는 배치 서버 |
 | **OOT-Common** | 공통 DTO, 유틸, 도메인·에러 코드 등 공유 모듈 |
 | **OOT-Monitoring** | 로그/메트릭 수집, 대시보드 설정 등 모니터링 관련 레포 |
@@ -124,9 +123,9 @@
 
 ## 9. 주요 기능
 
-### 🔐 인증/인가
+### 🔐 인증·인가
 - 일반 로그인 및 소셜(구글) 로그인 지원
-- 멀티 디바이스 로그인 관리 (최대 5개)
+- 멀티 디바이스 로그인 관리(최대 5개)
 
 ### 👔 옷장 관리
 - 디지털 옷장 생성 및 옷 등록
@@ -141,7 +140,7 @@
 - 판매자와 구매자 간 1:1 실시간 채팅
 
 ### 📍 위치 기반 기부처 검색
-- 반경 5km 이내 의류 기부처 실시간 검색 (Kakao Map API)
+- 반경 5km 이내 의류 기부처 실시간 검색(Kakao Map API)
 
 ### 📊 대시보드
 - 사용자 및 관리자용 통계 집계 및 시각화
@@ -151,7 +150,7 @@
 
 ## 📮 Contact
 
-- **프로젝트 기간**: 2025년 10월 13일 ~ 2025년 11월 18일
+- **프로젝트 기간**: 2025년 10월 13일 ~
 - **팀 노션**: [OOT 팀 노션](https://www.notion.so/teamsparta/6-OOT-2862dc3ef5148073a3fbcf5014ebf307)
 - **Swagger API**: [개발 서버 Swagger](http://3.36.121.187:8080/api/swagger-ui/index.html)
 - **GitHub Organization**: https://github.com/OOT-Outfit-of-Today
